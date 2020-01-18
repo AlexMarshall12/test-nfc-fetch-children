@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="15508" systemVersion="19B2093" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Item" representedClassName="Item" syncable="YES">
+        <attribute name="timestamp" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+    </entity>
+    <entity name="ItemA" representedClassName="ItemA" parentEntity="Item" syncable="YES"/>
+    <entity name="ItemB" representedClassName="ItemB" parentEntity="Item" syncable="YES"/>
+    <elements>
+        <element name="Item" positionX="-54" positionY="-9" width="128" height="58"/>
+        <element name="ItemA" positionX="54.92578125" positionY="91.875" width="128" height="43"/>
+        <element name="ItemB" positionX="-131.2265625" positionY="93.46875" width="128" height="43"/>
+    </elements>
+</model>
